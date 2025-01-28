@@ -1,19 +1,14 @@
 {
   "nodeLayouts": {
     "inputs": {
-      "x": 290,
-      "y": 42,
+      "x": 50,
+      "y": 50,
       "index": -1
     },
     "outputs": {
-      "x": 220,
-      "y": 310,
+      "x": 50,
+      "y": 350,
       "index": -1
-    },
-    "oai_custom_search": {
-      "x": 140,
-      "y": 176,
-      "index": 0
     }
   },
   "orientation": "Vertical"

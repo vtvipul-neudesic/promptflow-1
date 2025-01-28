@@ -2,9 +2,9 @@ oai.tools.oai_search.oai_search_tool:
   name: oai_search_tool
   type: python
   inputs:
-    is_env_setup_successful:
+    connection:
       type:
-        - bool
+        - CustomConnection
     user_prompt:
       type:
         - string
