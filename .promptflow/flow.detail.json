@@ -1,0 +1,217 @@
+{
+  "flow_runs": [
+    {
+      "run_id": "b11ea249-a680-4910-8ff5-6ffd9ab4b76c_0",
+      "status": "Completed",
+      "error": null,
+      "inputs": {
+        "query_text": "tell me something interesting about space",
+        "setupenv": true
+      },
+      "output": {
+        "final_response": {
+          "id": "cmpl-AuI33Jr1JqESBEBrcXSKZJowtJpZO",
+          "object": "text_completion",
+          "created": 1737979109,
+          "model": "gpt-35-turbo",
+          "choices": [
+            {
+              "text": ".” Children will adore the beautiful and engaging illustrations throughout–which expertly balance accuracy with engaging entertainment.\n\nFive Minute Stories Sleeping Princess by Margaret Evans Price\n\nTraditionally a well-loved fairy tale. Five Minute Stories Sleeping Princess is a charming retelling of the classic story for kids aged three and up. Beautiful illustrations capture the promise of “happily ever after,” while cleverly abridged text is perfect for bedtime stories and emergent readers alike.\n\nAlphabet Animals, Animals from A-Z by Early",
+              "index": 0,
+              "finish_reason": "length",
+              "logprobs": null
+            }
+          ],
+          "usage": {
+            "prompt_tokens": 6,
+            "completion_tokens": 100,
+            "total_tokens": 106
+          }
+        }
+      },
+      "metrics": null,
+      "request": null,
+      "parent_run_id": "b11ea249-a680-4910-8ff5-6ffd9ab4b76c",
+      "root_run_id": "b11ea249-a680-4910-8ff5-6ffd9ab4b76c",
+      "source_run_id": null,
+      "flow_id": "default_flow_id",
+      "start_time": "2025-01-27T11:57:22.085296Z",
+      "end_time": "2025-01-27T11:57:23.833122Z",
+      "index": 0,
+      "api_calls": [
+        {
+          "name": "flow",
+          "node_name": "flow",
+          "type": "Flow",
+          "start_time": 1737959242.085296,
+          "end_time": 1737959243.833122,
+          "children": [],
+          "system_metrics": {
+            "duration": 1.747826,
+            "prompt_tokens": 0,
+            "completion_tokens": 0,
+            "total_tokens": 0
+          },
+          "inputs": {
+            "query_text": "tell me something interesting about space",
+            "setupenv": true
+          },
+          "output": {
+            "final_response": {
+              "id": "cmpl-AuI33Jr1JqESBEBrcXSKZJowtJpZO",
+              "object": "text_completion",
+              "created": 1737979109,
+              "model": "gpt-35-turbo",
+              "choices": [
+                {
+                  "text": ".” Children will adore the beautiful and engaging illustrations throughout–which expertly balance accuracy with engaging entertainment.\n\nFive Minute Stories Sleeping Princess by Margaret Evans Price\n\nTraditionally a well-loved fairy tale. Five Minute Stories Sleeping Princess is a charming retelling of the classic story for kids aged three and up. Beautiful illustrations capture the promise of “happily ever after,” while cleverly abridged text is perfect for bedtime stories and emergent readers alike.\n\nAlphabet Animals, Animals from A-Z by Early",
+                  "index": 0,
+                  "finish_reason": "length",
+                  "logprobs": null
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 6,
+                "completion_tokens": 100,
+                "total_tokens": 106
+              }
+            }
+          },
+          "error": null
+        }
+      ],
+      "name": "",
+      "description": "",
+      "tags": null,
+      "system_metrics": {
+        "duration": 1.747826,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0
+      },
+      "result": {
+        "final_response": {
+          "id": "cmpl-AuI33Jr1JqESBEBrcXSKZJowtJpZO",
+          "object": "text_completion",
+          "created": 1737979109,
+          "model": "gpt-35-turbo",
+          "choices": [
+            {
+              "text": ".” Children will adore the beautiful and engaging illustrations throughout–which expertly balance accuracy with engaging entertainment.\n\nFive Minute Stories Sleeping Princess by Margaret Evans Price\n\nTraditionally a well-loved fairy tale. Five Minute Stories Sleeping Princess is a charming retelling of the classic story for kids aged three and up. Beautiful illustrations capture the promise of “happily ever after,” while cleverly abridged text is perfect for bedtime stories and emergent readers alike.\n\nAlphabet Animals, Animals from A-Z by Early",
+              "index": 0,
+              "finish_reason": "length",
+              "logprobs": null
+            }
+          ],
+          "usage": {
+            "prompt_tokens": 6,
+            "completion_tokens": 100,
+            "total_tokens": 106
+          }
+        }
+      },
+      "upload_metrics": false,
+      "otel_trace_id": null,
+      "message_format": "basic"
+    }
+  ],
+  "node_runs": [
+    {
+      "node": "oai_custom_setupenv",
+      "flow_run_id": "b11ea249-a680-4910-8ff5-6ffd9ab4b76c",
+      "run_id": "b11ea249-a680-4910-8ff5-6ffd9ab4b76c_oai_custom_setupenv_0",
+      "status": "Completed",
+      "inputs": {
+        "setupenv": true,
+        "deployment_name": "gpt-35-turbo",
+        "endpoint": "https://vipul-m69bq14z-francecentral.openai.azure.com/",
+        "api_key": "4JXxtH2cbjQkFbDq8WxKm8boOhYxtD6Kk5dWKkFqFaVH8h5N7WpaJQQJ99BAAC5T7U2XJ3w3AAAAACOGrQja"
+      },
+      "output": true,
+      "metrics": null,
+      "error": null,
+      "parent_run_id": "b11ea249-a680-4910-8ff5-6ffd9ab4b76c_0",
+      "start_time": "2025-01-27T11:57:22.089298Z",
+      "end_time": "2025-01-27T11:57:22.089298Z",
+      "index": 0,
+      "api_calls": [],
+      "cached_run_id": null,
+      "cached_flow_run_id": null,
+      "logs": {
+        "stdout": "",
+        "stderr": ""
+      },
+      "system_metrics": {
+        "duration": 0.0
+      },
+      "result": true,
+      "message_format": "basic"
+    },
+    {
+      "node": "oai_custom_search",
+      "flow_run_id": "b11ea249-a680-4910-8ff5-6ffd9ab4b76c",
+      "run_id": "b11ea249-a680-4910-8ff5-6ffd9ab4b76c_oai_custom_search_0",
+      "status": "Completed",
+      "inputs": {
+        "is_env_setup_successful": true,
+        "user_prompt": "tell me something interesting about space",
+        "max_tokens": 100
+      },
+      "output": {
+        "id": "cmpl-AuI33Jr1JqESBEBrcXSKZJowtJpZO",
+        "object": "text_completion",
+        "created": 1737979109,
+        "model": "gpt-35-turbo",
+        "choices": [
+          {
+            "text": ".” Children will adore the beautiful and engaging illustrations throughout–which expertly balance accuracy with engaging entertainment.\n\nFive Minute Stories Sleeping Princess by Margaret Evans Price\n\nTraditionally a well-loved fairy tale. Five Minute Stories Sleeping Princess is a charming retelling of the classic story for kids aged three and up. Beautiful illustrations capture the promise of “happily ever after,” while cleverly abridged text is perfect for bedtime stories and emergent readers alike.\n\nAlphabet Animals, Animals from A-Z by Early",
+            "index": 0,
+            "finish_reason": "length",
+            "logprobs": null
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 6,
+          "completion_tokens": 100,
+          "total_tokens": 106
+        }
+      },
+      "metrics": null,
+      "error": null,
+      "parent_run_id": "b11ea249-a680-4910-8ff5-6ffd9ab4b76c_0",
+      "start_time": "2025-01-27T11:57:22.092296Z",
+      "end_time": "2025-01-27T11:57:23.831126Z",
+      "index": 0,
+      "api_calls": [],
+      "cached_run_id": null,
+      "cached_flow_run_id": null,
+      "logs": {
+        "stdout": "",
+        "stderr": ""
+      },
+      "system_metrics": {
+        "duration": 1.73883
+      },
+      "result": {
+        "id": "cmpl-AuI33Jr1JqESBEBrcXSKZJowtJpZO",
+        "object": "text_completion",
+        "created": 1737979109,
+        "model": "gpt-35-turbo",
+        "choices": [
+          {
+            "text": ".” Children will adore the beautiful and engaging illustrations throughout–which expertly balance accuracy with engaging entertainment.\n\nFive Minute Stories Sleeping Princess by Margaret Evans Price\n\nTraditionally a well-loved fairy tale. Five Minute Stories Sleeping Princess is a charming retelling of the classic story for kids aged three and up. Beautiful illustrations capture the promise of “happily ever after,” while cleverly abridged text is perfect for bedtime stories and emergent readers alike.\n\nAlphabet Animals, Animals from A-Z by Early",
+            "index": 0,
+            "finish_reason": "length",
+            "logprobs": null
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 6,
+          "completion_tokens": 100,
+          "total_tokens": 106
+        }
+      },
+      "message_format": "basic"
+    }
+  ]
+}

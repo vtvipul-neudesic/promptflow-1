@@ -1,0 +1,34 @@
+{
+  "nodes": {
+    "oai_setupenv": {
+      "variant_0": {
+        "inputs": {
+          "setupenv": []
+        }
+      }
+    },
+    "oai_search": {
+      "variant_0": {
+        "inputs": {
+          "envsetup": [],
+          "user_prompt": [],
+          "is_env_setup_successful": []
+        }
+      }
+    },
+    "oai_custom_search": {
+      "variant_0": {
+        "inputs": {
+          "is_env_setup_successful": []
+        }
+      }
+    },
+    "oai_custom_setupenv": {
+      "variant_0": {
+        "inputs": {
+          "setupenv": []
+        }
+      }
+    }
+  }
+}

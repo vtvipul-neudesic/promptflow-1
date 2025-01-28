@@ -1,0 +1,21 @@
+inputs:
+  query_text:
+    type: string
+    default: tell me something interesting about space
+  setupenv:
+    type: bool
+    default: true
+outputs:
+  final_response:
+    type: string
+    reference: ${oai_custom_search.output}
+nodes:
+- name: oai_custom_search
+  type: python
+  source:
+    type: package
+    tool: oai.tools.oai_search.oai_search_tool
+  inputs:
+    is_env_setup_successful: ${oai_custom_setupenv.output}
+    user_prompt: ${inputs.query_text}
+    max_tokens: 100
