@@ -1,0 +1,20 @@
+oai.tools.oai_setupenv.oai_setupenv_tool:
+  name: oai_setupenv_tool
+  type: python
+  inputs:
+    api_key:
+      type:
+        - string
+    endpoint:
+      type:
+        - string
+    deployment_name:
+      type:
+        - string
+    setupenv:
+      type:
+        - bool
+  module: oai.tools.oai_setupenv
+  function: oai_setupenv_tool
+  icon: 
+    data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABRElEQVR4nKWRMauCYBSGXyMXHfsF9Rvcm1z7Bf0Dx4Yga8s5JIjAJVBaosEmG1qE5iAIR3ERRJQQ7Cuw72swuheu3G7cdzqHcx4O73s4xhg+Ue2j7X8Ax+OxLE6nEwDP81arVZqmAA6HA6X0tfMEDMMoiuJ+vy8WC8dxNptNq9VSVTXLMkKIruumacZxDIArTW+3W0opY0wQhPV6PZ1OAex2uzzPO53OaDSilGqa9nVBlmXXdff7fbvdFkWREAIgyzKe56/Xa5IkYRjmeQ6g/rRSqzUaDZ7nOY5TFKXX6zWbzTRNx+PxYDDo9/tFUQyHw8lkwlX+gTF2uVxEUfw5qgbex/pSEARRFAHwfb908gYwDGM2mwGwbbskfwOSJBEE4Xa7lYFUqv69sSzrfD4TQpbL5Z8Az/Pm8zmAbrcrSVIl8HFKDx3vsFYllWs2AAAAAElFTkSuQmCC
