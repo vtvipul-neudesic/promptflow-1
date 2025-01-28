@@ -1,2 +1,1 @@
-promptflow
-git+https://github.com/vtvipul-neudesic/learn-promptflow.git@oai_tools#egg=oai&subdirectory=oai_tools
+git+https://github.com/vtvipul-neudesic/promptflow-1.git@oai_tools#egg=oai&subdirectory=oai_tools
